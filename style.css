@@ -1,5 +1,88 @@
-/* ----------------
-section-1---------------- */
-.greatest {
-    display: flex;
+header {
+  display:flex;
+  position: absolute;
+  width: 1321px;
+  height: 646px;
+  left: 140px;
+  top: 50px;
+  background: #161616;
+  border-radius: 30px;
+  }
+
+  /* The Greatest show on the earth */
+
+header h1 {
+  position: absolute;
+  width: 531px;
+  height: 240px;
+  left: 246px;
+  top: 161px;
+  color: #FFFFFF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
 }
+
+/* or 114% */
+header p {
+  position: absolute;
+  width: 506px;
+  height: 78px;
+  left: 246px;
+  top: 421px;
+  color: #FFFFFF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+header a {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 25px;
+  gap: 10px;
+  position: absolute;
+  width: 187px;
+  height: 56px;
+  left: 246px;
+  top: 529px;
+  background: #DD0000;
+  border-radius: 5px;
+}
+
+header span {
+  width: 103px;
+  height: 23px;
+  font-family: 'HelveticaNeue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+header img {
+  position: absolute;
+  width: 581px;
+  height: 613px;
+  left: 801px;
+  top: 83px;
+}
+
+
+
+
+
