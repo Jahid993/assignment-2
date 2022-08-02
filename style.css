@@ -61,7 +61,7 @@ header span {
   font-family: 'HelveticaNeue';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 23px;
   text-align: center;
   color: #FFFFFF;
@@ -72,7 +72,6 @@ header span {
   order: 0;
   flex-grow: 0;
 }
-
 
 header img {
   position: absolute;
